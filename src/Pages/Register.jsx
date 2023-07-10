@@ -171,7 +171,7 @@ const Register = () => {
           </RegisterInputBlck>
 
           <RegisterInputBlck Value={InptCpassword}>
-            <VpnKeyIcon />
+            <HttpsIcon />
             <input
               ref={ConpasswordInputRef}
               name="cpassword"
@@ -195,7 +195,7 @@ const Register = () => {
             />
           </FormGroup>
 
-          <button onClick={SaveData}>Sing Up</button>
+          <button>Sing Up</button>
         </LeftCntr>
         <RightCntr>
           <ImageBlock>

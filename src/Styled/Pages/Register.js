@@ -17,7 +17,7 @@ export const RegisterInputCntr = styled.div`
   justify-content: center;
   gap: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 10px 40px;
+  padding: 80px 40px;
   border-radius: 20px;
   background: #f8f8f8;
 
@@ -27,6 +27,10 @@ export const RegisterInputCntr = styled.div`
     background: #6dabe4;
     color: #fff;
     border-radius: 10px;
+
+    &:hover {
+      background: #4292dc;
+    }
   }
 `;
 export const RegisterInputBlck = styled.div`
